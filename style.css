@@ -1,0 +1,170 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #2d3436;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+header {
+    background: #27ae60;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+header .search-bar {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+header .search-bar input {
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 500px;
+    border: none;
+    border-radius: 5px;
+}
+
+header .search-bar button {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    color: #27ae60;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .search-bar button:hover {
+    background: #ecf0f1;
+}
+
+
+.intro {
+    background: #dff9fb;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+}
+
+
+.gift-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.gift-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.gift-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.gift-item:hover {
+    transform: scale(1.05);
+}
+
+.gift-item h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.gift-item p {
+    font-size: 1rem;
+    color: #636e72;
+}
+
+.gift-item .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.2s;
+}
+
+.gift-item .btn:hover {
+    background: #c0392b;
+}
+
+
+footer {
+    background: #2d3436;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer ul li a:hover {
+    color: #e74c3c;
+}
